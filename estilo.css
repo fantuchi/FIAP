@@ -1,0 +1,146 @@
+/* Estilos Gerais */
+body {
+    background-color: #000; /* Fundo preto */
+    color: #fff; /* Texto branco */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+/* Cabeçalho */
+.profile-icon {
+    background-color: #1a1a1a; /* Cinza escuro */
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Botões de Configuração */
+.config-btn {
+    background-color: #1a1a1a; /* Cinza escuro */
+    border: none;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.config-btn:hover {
+    background-color: #333; /* Fundo cinza mais escuro no hover */
+    transform: scale(1.1); /* Aumenta no hover */
+}
+
+/* Bloco de Saldo e Contas */
+.inicial-card {
+    background-color: #000; /* Fundo cinza escuro */
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    color: #000;
+}
+
+.inicial-card ul li {
+    border-bottom: 1px solid #333; /* Borda cinza escura */
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Botões Gerais */
+.btn {
+    display: inline-block; /* Faz o link se comportar como um botão */
+    text-decoration: none; /* Remove o sublinhado */
+    border-radius: 25px; /* Bordas arredondadas */
+    background-color: #007bff; /* Azul Bootstrap */
+    color: #fff; /* Texto branco */
+    border: none; /* Sem borda */
+    padding: 10px 15px; /* Espaçamento interno */
+    font-size: 1rem; /* Tamanho do texto */
+    font-weight: bold; /* Texto em negrito */
+    text-align: center; /* Centraliza o texto */
+    transition: background-color 0.3s ease; /* Transição suave */
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Azul mais escuro no hover */
+}
+
+.btn:active {
+    transform: scale(0.98); /* Reduz ligeiramente ao clicar */
+}
+
+/* Botão "Acesse com o Face ID" */
+.btn-face-id {
+    background-color: #0056b3; /* Fundo azul */
+    color: #fff; /* Texto branco */
+    border: 2px solid #007bff; /* Borda azul */
+    border-radius: 25px; /* Bordas arredondadas */
+    width: 100%; /* Largura total */
+    max-width: 400px; /* Largura máxima */
+    padding: 10px; /* Espaçamento interno */
+    font-size: 1rem; /* Tamanho do texto */
+    font-weight: bold; /* Texto em negrito */
+    text-align: center; /* Texto centralizado */
+    margin-top: 20px; /* Espaçamento superior */
+    cursor: pointer; /* Cursor de mão no hover */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Transições suaves */
+}
+
+.btn-face-id:hover {
+    background-color: #004494; /* Azul mais escuro no hover */
+    transform: scale(1.05); /* Leve aumento no hover */
+}
+
+/* Atalhos */
+.shortcut-btn {
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.shortcut-btn i {
+    font-size: 2rem;
+    margin-bottom: 5px;
+}
+
+.shortcut-btn:hover i {
+    color: #007bff; /* Azul no hover */
+    transform: scale(1.1);
+}
+
+.shortcut-btn p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #ccc; /* Texto cinza */
+}
+
+.shortcut-btn:hover p {
+    color: #fff; /* Texto branco no hover */
+}
+
+/* Botão Fixo (WhatsApp) */
+.fixed-bottom a {
+    background-color: #25d366; /* Verde WhatsApp */
+    color: #fff;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.fixed-bottom a:hover {
+    background-color: #1c9c53; /* Verde mais escuro no hover */
+    transform: scale(1.1); /* Aumenta no hover */
+}
